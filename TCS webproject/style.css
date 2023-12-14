@@ -1,0 +1,130 @@
+
+    *{
+      margin: 4px;
+      padding: 2px;
+    }
+    
+ header{
+  background-color: rgb(31, 143, 168);
+  color: rgb(208, 213, 216);
+  margin: 2px; ;
+  padding: 2px;
+  float: inline block;
+ }
+ .navbar{
+  display: flex;
+ }
+ .nav-list{
+  
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+ }
+ .logo{
+  margin: 4px;
+  padding: 5px;
+  height: 40px;
+  width: 50px;
+ }
+
+ 
+/* .right-nav{
+background-color: blueviolet;
+} */
+li{
+  float: left;
+}
+
+.navbar a:hover {
+background-color: darkblue;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+
+
+ body{
+  background-color:rgb(227, 193, 228);
+  
+ }
+ .logo{
+    text-align:  justify;
+ }
+ 
+ @keyframes load {
+        0% {
+          width: 0;
+        }
+        50% {
+          width: 40vw;
+        }
+        70% {
+          width: 70vw;
+        }
+        100% {
+          width: 100vw;
+        }
+      }
+      @keyframes slide {
+        0% {
+          transform: translate(-8vw);
+        }
+        100% {
+          transform: translate(85 vw);
+        }
+      }
+      @keyframes slide {
+        0% {
+          transform: translate(0vw);
+        }
+        100% {
+          transform: translate(92 vw);
+        }
+      }
+      .slider {
+        background-color: white;
+        height: 420px;
+        column-gap:5px;
+
+        display: flex;
+        overflow-x: scroll;
+        justify-content: center;
+        scroll-snap-type: x mandatory;
+        border-radius: 10px;
+      }
+      
+      .container{
+        text-align: center;
+        
+      }
+      footer{
+        background-color: rgb(20, 150, 176);
+        color: rgb(19, 19, 19);
+        height: 30px;
+        text-align: center;
+        
+      }
+  
